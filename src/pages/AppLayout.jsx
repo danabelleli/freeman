@@ -7,6 +7,11 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
+
+  @media (max-width: 430px) {
+    padding: 1rem 2rem;
+    height: auto;
+  }
 `;
 
 function AppLayout() {

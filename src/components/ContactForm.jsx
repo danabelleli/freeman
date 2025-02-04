@@ -58,28 +58,7 @@ const Form = styled.form`
     flex-direction: column;
     padding: 5rem 2rem;
     gap: 2rem;
-    flex-grow: 1;
-
-    & button {
-      padding: 1rem 4rem;
-    }
-  }
-
-  @media (max-width: 375px) {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 2rem;
-    gap: 2rem;
-    flex-grow: 1;
-
-    & input {
-      height: 2.5rem;
-    }
-
-    & textarea {
-      height: 10rem;
-    }
+    height: auto;
 
     & button {
       padding: 1rem 4rem;
