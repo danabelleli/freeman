@@ -2,8 +2,8 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./pages/AppLayout";
-import Home from "./pages/home";
-import Contact from "./pages/contact";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
